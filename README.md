@@ -1,3 +1,3 @@
 # THIS IS MY SVG ICON PROJECT
 
-## PLEASE PASS ME
+## This was really hard to execute on my own at home. 
