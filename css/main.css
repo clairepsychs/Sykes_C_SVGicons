@@ -1,25 +1,29 @@
-body { font-size: 14px; padding: 1em; }
+@charset "UTF-8";
+@font-face 
+{
+font-family: 'Playfair Display',
+'Abril Fatface', cursive, 
+'Oswald', sans-serif,
+'Anton', serif;
+}
+
+h1 { 
+	font-family: 'Abril Fatface', Helvetica, Arial, sans-serif;
+	font-size: 25px; 
+	padding: 1em;
+}
+
 
 main span {
   padding: 0.75em 1em;
   cursor: pointer;
 }
 
-.container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
+#siteContainer 
+{
+	margin: 0 auto;
+	width: 970px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-
-.selected { color: mediumspringgreen; }
-
-
-.selected::before {
-  content: "\2BCC";
-}
-
-object { width: 8em; }
-
-.wrapper > * {pointer-events: none }
