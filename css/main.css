@@ -14,10 +14,6 @@ h1 {
 }
 
 
-main span {
-  padding: 0.75em 1em;
-  cursor: pointer;
-}
 
 #siteContainer 
 {
@@ -27,3 +23,25 @@ main span {
 	padding-right: 20px;
 }
 
+.svg-image-wrapper
+{
+	height: 400px;
+	width: 250px;
+	padding: 50px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	margin: 50px;
+	cursor: pointer;
+}
+
+#box1
+{
+	display: row;
+	justify-content: center;
+}
+
+#box2
+{
+	display: row;
+	justify-content: center;
+}

@@ -17,4 +17,4 @@
   mySpan.addEventListener('click', toggleSelected);
   theSVG.addEventListener('click', toggleSelected);
 
-})();
+}(();
